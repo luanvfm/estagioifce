@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="index.js"  defer></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="configuracoes.html"><img src="images/settings.svg" alt="Menu" class="settings"></a>
+        </div>
+        <div>
+            <img src="images/logo.png" alt="Logo IFCE" class="logo">
+        </div>
+        <div>
+            <a href="orientacoes.pdf" target="_blank">Orientações</a>
+        </div>
+    </header>
+    <main>
+        <div class="bemvindo">
+            <p class="texto">BEM-VINDO, [USER]</p>
+            <p class="subtexto">ESCOLHA A OPÇÃO MAIS ADEQUADA PARA O QUE DESEJA:</p>
+        </div>
+        <div class="setorBox">
+            <select name="setorMenu" id="setorMenu">
+                <option value="" disabled selected hidden>Setor Destino:</option>
+                <option value="1">Nustenil</option>
+                <option value="2">CAE</option>
+                <option value="3">DAE</option>
+                <option value="4">Secretaria</option>
+                <option value="5">Luan</option>
+            </select>
+        </div>
+        <div class="searchBox" id="searchBox">
+            <input type="text" name="searchText" id="searchText" placeholder="Escreva aqui (deixe vazio para ver opções)" onfocus="hideWelcome()">
+            <button type="button"><img src="images/search.svg" alt="search Button" onclick="search()"></button>
+        </div>
+        <div id="solicitacoesContainer"></div>
+        <button onclick="submitSolicitacoes()" class="submit">SUBMETER</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right top, #18bd3c8a 20%, #0774C6);
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginCard {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+}
+
+.loginCard img {
+    height: 100%;
+}
+
+.loginSquare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 30rem;
+    padding: 5rem;
+}
+
+.loginText {
+    width: 100%;
+}
+
+.loginText a {
+    color: black;
+    font-weight: bold;
+}
+
+.loginText p {
+    font-size: 14px;
+}
+
+.loginSquare .field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginSquare .field input, button {
+    padding: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.loginSquare .button {
+    width: 60%;
+    min-width: 150px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}

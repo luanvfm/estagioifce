@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    /* justify-content: center; */
+    padding: 0 2rem;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+}
+
+header div {
+    padding: 8px;
+    flex: 1;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+header div:nth-child(2) {
+    justify-content: center;
+}
+
+header div:nth-child(3) {
+    justify-content: end;
+}
+
+header .settings, .voltar {
+    width: 2.5rem;
+}
+
+.voltar {
+    transform: rotate(90deg);
+}
+
+header a {
+    font-size: 1.25rem;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 1rem;
+}
+
+form {
+    box-shadow: 0 2px 6px gray;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+    width: 60%;
+    gap: 1rem;
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.col {
+    width: calc(100% / 3);
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.col input {
+    width: 80%;
+    padding: 1rem;
+    box-shadow: 0 2px 6px gray;
+}
+
+.linha:nth-child(1) .col:nth-child(1) {
+    gap: 16px;
+}
+
+form .title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+form a {
+    color: black;
+    font-weight: bold;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem 5rem;
+    border: none;
+    box-shadow: 0 2px 8px gray;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/cadastro.css">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <!-- Vazio -->
+        </div>
+        <div>
+            <img src="images/logo.png" alt="Logo IFCE" class="logo">
+        </div>
+        <div>
+            <a href="orientacoes.pdf" target="_blank">Orientações</a>
+        </div>
+    </header>
+    <main>
+        <h1>FAÇA SEU CADASTRO</h1>
+        <form action="#" method="post">
+            <div class="linha">
+                <div class="col">
+                    <p class="title">INSCREVA-SE </p>
+                    <p class="subtitle">Possui uma conta? <a href="index.html">Faça seu Login.</a></p>
+                </div>
+                <div class="col">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Luan" required>
+                </div>
+                <div class="col">
+                    <label for="surname">Sobrenome</label>
+                    <input type="text" name="surname" id="surname" placeholder="Ventura" required>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="col">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" required>
+                </div>
+                <div class="col">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password" placeholder="********" required>
+                </div>
+                <div class="col">
+                    <label for="matricula">Número de Matrícula</label>
+                    <input type="text" name="matricula" id="matricula" placeholder="2024123456789" required>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="col">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="***.***.***-**" required>
+                </div>
+                <div class="col">
+                    <label for="telefone">Telefone Residencial</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="() ****-****">
+                </div>
+                <div class="col">
+                    <label for="celular">Celular</label>
+                    <input type="tel" name="celular" id="celular" placeholder="() 9****-****" re>
+                </div>
+            </div>
+            <button type="button" class="submit">INSCREVA-SE</button>
+        </form>
+    </main>
+</body>
+</html>
