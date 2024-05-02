@@ -20,4 +20,6 @@ Este projeto foi desenvolvido para criar um site institucional para o Instituto 
 - **Estrutura de Dados:** Utilização de JSON para armazenar e gerenciar listas de possíveis requerimentos.
 
 ![image](https://github.com/luanvfm/estagioifce/assets/160190605/1fe08f7d-a8fa-4d9a-98f0-77f07da8c688)
+![image](https://github.com/luanvfm/estagioifce/assets/160190605/c0d79daf-2e3f-4130-b0d8-0877281b2b05)
+![image](https://github.com/luanvfm/estagioifce/assets/160190605/c28f8baa-d25a-4f7b-b12d-765b40a1934b)
 
